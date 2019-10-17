@@ -1,0 +1,4 @@
+R5T.Bulgaria.Default.Local.Construction - A construction console-app for the library R5T.Bulgaria.Default.Local.
+
+Goals
+
