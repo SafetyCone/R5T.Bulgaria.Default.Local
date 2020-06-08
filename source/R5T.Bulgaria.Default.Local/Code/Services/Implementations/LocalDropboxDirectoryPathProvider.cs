@@ -11,13 +11,13 @@ namespace R5T.Bulgaria.Default.Local
     /// <summary>
     /// Gets the Dropbox directory path from the user profile directory path.
     /// </summary>
-    public class DefaultLocalDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider
+    public class LocalDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider
     {
         public IUserProfileDirectoryPathProvider UserProfileDirectoryPathProvider { get; }
         public IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
 
 
-        public DefaultLocalDropboxDirectoryPathProvider(IUserProfileDirectoryPathProvider userProfileDirectoryPathProvider, IStringlyTypedPathOperator stringlyTypedPathOperator)
+        public LocalDropboxDirectoryPathProvider(IUserProfileDirectoryPathProvider userProfileDirectoryPathProvider, IStringlyTypedPathOperator stringlyTypedPathOperator)
         {
             this.UserProfileDirectoryPathProvider = userProfileDirectoryPathProvider;
             this.StringlyTypedPathOperator = stringlyTypedPathOperator;
