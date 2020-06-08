@@ -9,7 +9,7 @@ using BulgariaBaseConstants = R5T.Bulgaria.Base.Constants;
 namespace R5T.Bulgaria.Default.Local
 {
     /// <summary>
-    /// Gets the Dropbox directory path from
+    /// Gets the Dropbox directory path from the user profile directory path.
     /// </summary>
     public class DefaultLocalDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider
     {
