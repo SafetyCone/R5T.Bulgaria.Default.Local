@@ -10,7 +10,4 @@
     <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Visigothia.Base\source\R5T.Visigothia.Base\R5T.Visigothia.Base.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Code\Services\Extensions\" />
-  </ItemGroup>
 </Project>
