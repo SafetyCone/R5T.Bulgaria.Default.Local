@@ -3,6 +3,8 @@
 using R5T.Lombardy;
 using R5T.Visigothia;
 
+using R5T.T0064;
+
 using BulgariaBaseConstants = R5T.Bulgaria.Base.Constants;
 
 
@@ -11,7 +13,8 @@ namespace R5T.Bulgaria.Default.Local
     /// <summary>
     /// Gets the Dropbox directory path from the user profile directory path.
     /// </summary>
-    public class LocalDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider
+    [ServiceImplementationMarker]
+    public class LocalDropboxDirectoryPathProvider : IDropboxDirectoryPathProvider, IServiceImplementation
     {
         public IUserProfileDirectoryPathProvider UserProfileDirectoryPathProvider { get; }
         public IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
